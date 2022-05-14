@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* about section */
+.about-section{
+    
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+
+    
+}
+.photo{
+    
+    width: 40%;
+    float: left;
+   
+}
+.discription{
+    
+    width: 60%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+
+}
+.photo img{
+    width: 100%;
+}
+.discription h2{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.discription p{
+    margin-bottom: 30px;
+}
+
+/* our offer */
+
+.ward{
+    
+    width: 50%;
+    float: left;
+     text-align: center;
+     padding-top: 50px; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.photo2{
+    
+    width: 50%;
+    float: left;
+}
+.photo2 img{
+    width: 90%;
+}
+.ward h2{
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+.ward p{
+    margin-top:50px;
+}
+
+/* blog */
+.blog{
+    
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+}
+.information{
+   
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+}
+.sora{
+   
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+}
+.sora img{
+    width: 100%;
+    
+}
+
+/* home-section */
+.home{
+    /* background-color: blueviolet; */
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-attachment:fixed ;
+    background-position: center center;
+}
+.home-section{
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 150px;
+}
+
+.btn1 {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.btn2{
+    padding: 15px;
+    border-radius: 5px;
+    border: solid white 3px;
+    background-color: transparent;
+    color: white;
+}
+.home-section h1 {
+    font-family:  'Alegreya Sans', sans-serif;
+    text-transform:captalize;
+    font-size:70px;
+    color:white;
+    margin-bottom:30px;
+    
+}
+.home-section p{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* baking  */
+
+
+ .baking-section{
+    /* background-color: teal; */
+    width: 32%;
+    float: left;
+    
+    margin: 5px;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.baking-section img{
+    width: 100%;
+    text-align: center;
+}
+.clr{
+    clear: left;
+}
+.baking h2, p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.baking-section h5 , p{
+    text-align: center;
+    margin: 20px  0 ;
+}
+.baking  h2{
+font-size: 1.5em;
+font-weight: bold;
+}
+.baking  p{
+    margin-bottom: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+} 
+.baking h2{
+    margin-top: 10px;
+}
+
+
+/* position */
+/* .item{
+   
+    background-color: brown;
+    width: 25%;
+    position: relative;
+}
+.item img{
+    width: 100%;
+}
+.caption{
+    position:absolute ;
+    top: 0;
+    left: 0;
+    background-color:rgb(0, 0, 0,.3);
+    height: 100%;
+} */
